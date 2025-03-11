@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.Fish {
+    position: absolute;
+    transition: top 15s ease, left 30s ease;
+}
+
+body {
+    background: radial-gradient(circle, transparent 20%, #13143b 20%, #13143b 80%, transparent 80%, transparent) 0% 0% / 40px 40px, radial-gradient(circle, transparent 20%, #13143b 20%, #13143b 80%, transparent 80%, transparent) 20px 20px / 40px 40px, linear-gradient(#133a3b 2px, transparent 2px) 0px -1px / 20px 20px, linear-gradient(90deg, #133a3b 2px, #13143b 2px) -1px 0px / 20px 20px #13143b;
+    background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
+    background-color: #13143b;
+}
